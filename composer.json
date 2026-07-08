@@ -1,0 +1,13 @@
+{
+    "name": "library/solid-tests",
+    "description": "SOLID Principles Test Suite",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Library\\Tests\\": "tests/"
+        }
+    }
+}
